@@ -7,10 +7,13 @@
 .navbar{
   height: 60px;
   background-color: #0F1111;
+  color:white;
+  display: flex;
+  align-items: center;
 
 }
 
-.navlogo{
+.nav-logo{
   height: 50px;
   width:100px;
 
@@ -22,4 +25,34 @@
   height:50px;
   width:100%;
 
+}
+
+.border{
+  border: 1.5px solid transparent;
+}
+
+.border:hover{
+  border: 1.5px solid white;
+}
+
+/**Box 2**/
+.add-first{
+color: #cccccc;
+font-size: 0.85 rem;
+margin-left: 15px;
+}
+
+.add-second{
+  font-size: 1 rem;
+  margin-left: 3px;
+}
+
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+
+/**Box 3**/
+.nav-search{
+  display:flex;
 }
